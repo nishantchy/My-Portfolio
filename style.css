@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-page{
+    background: #000;
+    height: 120vh;
+    margin-top: -70px;
+}
+.back-img img{
+    height: 350px;
+    /* padding: 10px; */
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    margin-top: -710px;
+    background-color: rgb(19, 18, 18);
+    padding: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.container{
+    color: aliceblue;
+    text-align: center;
+}
+.container h1{
+    width: 60%;
+    margin-left: 160px;
+}
+.container h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.container button{
+    padding: 15px;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: large;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    border-radius: 0.6rem;
+    margin-top: 20px;
+}
+
+.me{
+    align-items: center;
+    text-align: center;
+}
+.me h1{
+    margin: 60px;
+}
+.btn button{
+    margin-top: 20px;
+    border: 0;
+}
+.btn button a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 0;
+    background-color: #000;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 0 25%;
+}
+.cont .courses, .education, .expertise{
+    width: 50%;
+    padding: 15px;
+    border: 1px solid #000;
+}
+.about{
+    padding-bottom: 40px;
+}
+.html{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 40px; */
+}
+.blank-h p{
+    /* border: 1px solid #000; */
+    padding: 0px 200px;
+    background-color: rgb(30, 182, 132);
+    border-radius: 1rem;
+    font-size: 10px;
+}
+.blank-h{
+    margin-top: 5px;
+}
+.css{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 45px; */
+}
+.blank-c p{
+    /* border: 1px solid #000; */
+    padding: 0px 200px;
+    background-color:rgb(96, 187, 5);
+    border-radius: 1rem;
+    font-size: 10px;
+}
+.blank-c{
+    margin-top: 5px;
+}
+
+.skills{
+    padding: 50px;
+    background-color: #000;
+    color: aliceblue;
+}
+.skills h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.js{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+}
+.blank-j p{
+    /* border: 1px solid #000; */
+    padding: 0px 200px;
+    background-color:rgb(211, 198, 24);
+    border-radius: 1rem;
+    font-size: 10px;
+}
+.blank-j{
+    margin-top: 5px;
+}
+.php{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 45px; */
+}
+.blank-p p{
+    /* border: 1px solid #000; */
+    padding: 0px 200px;
+    background-color:rgb(142, 24, 211);
+    border-radius: 1rem;
+    font-size: 10px;
+}
+.blank-p{
+    margin-top: 5px;
+}
+.form{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #000;
+}
+.Name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.Email{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.Message{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#a{
+    font-weight: bold;
+    text-align: center;
+}
+#b{
+    padding: 9px 100px;
+    border-radius: 0.5rem;
+    border: 0.5px solid #000;
+}
+#bc{
+    padding: 30px 100px;
+    border-radius: 0.5rem;
+    border: 0.5px solid #000;
+}
+.submit{
+    text-align: center;
+}
+#btn{
+    padding: 9px 30px;
+    border: 0;
+    background-color: #000;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+.contact-info h1{
+    text-align: center;
+    margin: 30px 0;
+}
+.contact{
+    margin-bottom: 50px ;
+    display: flex;
+    justify-content: center;
+    
+    color: aliceblue;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid aliceblue;
+    
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid aliceblue;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid aliceblue;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.fa-in1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.info{
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: #000;
+}
+.icon img{
+    height: 40px;
+}
+.fa-info {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.fa-in{
+    text-align: center;
+}
+.blank{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+}
+.blank p{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.wrk-img img{
+    height: 250px;
+    width: 350px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.wrk{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.work h1{
+    text-align: center;
+    padding: 30px 0;
+}
+.me p{
+    margin-top: -20px;
+}
+#menu-btn{
+    font-size: 1.5rem;
+    color: aliceblue;
+    display: none;
+}
+
+.location h1{
+    text-align: center;
+    padding: 30px 0;
+}
+.location{
+    margin-bottom: -12px;
+}
